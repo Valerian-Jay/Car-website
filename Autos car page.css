@@ -1,0 +1,88 @@
+/*CAR PAGE STYLING*/
+body{
+background-color: #0b0b0b;
+color: white;
+  font-family:serif;
+   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  margin-top: 150px;
+
+}
+
+/*HEADER STYLING*/
+.cars-header{
+     position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 0%;
+  background: rgba(0, 0, 0, 0.8); /* so text is visible */
+  backdrop-filter: blur(6px);     /* nice glass effect */
+
+  z-index: 1000;
+    border-bottom: 1px solid gold;
+}
+.cars-header h1{
+    color: gold;
+  font-size: 60px;
+  
+}
+
+/*MAIN NAV*/
+.cars-page-main-nav ul{
+    display:flex ;
+    list-style: none;
+    gap: 25px;
+}
+.cars-page-main-nav a{
+  color: gold;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.cars-page-main-nav a:hover{
+  color: white;
+  text-decoration: underline;
+  letter-spacing: 2px;
+}
+
+
+/*HERO*/
+.car-page-hero{
+  display: flex;
+  flex-direction: column;
+}
+
+/*HERO H2*/
+.car-page-hero h2{
+  font-size: 30px;
+  color: white;
+  font-weight: bolder;
+
+
+}
+
+
+/*HERO UL*/
+.car-page-hero ul{
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+/*HERO LINKS*/
+.car-page-hero a{
+  color: gold;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+
+
+}

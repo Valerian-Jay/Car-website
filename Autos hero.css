@@ -25,8 +25,8 @@ body {
   align-items: center;
 
   padding: 15px 20px;
-  background: rgba(0, 0, 0, 0.8); /* so text is visible */
-  backdrop-filter: blur(6px);     /* nice glass effect */
+  background: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(6px);     
 
   z-index: 1000;
   border-bottom: 1px solid gold;
